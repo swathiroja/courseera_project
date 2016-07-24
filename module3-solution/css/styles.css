@@ -1,0 +1,146 @@
+body {
+  font-size: 16px;
+  color: #fff;
+ 
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  
+  border-radius: 0;
+  border: 0;
+  background-color:grey;
+  
+}
+
+
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  color:#000000;
+  
+  font-size: 1.6em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px ;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+
+
+
+
+
+
+.category-tile { 
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  background-color:grey;
+  margin: 0 auto 15px;
+  padding:10px;
+}
+h4{
+	color:black;
+	font-family:bold;
+	font-size:1.5em;
+}
+.category-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-categories-title + div {
+  margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+ 
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+ 
+}
+  
+
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+  
+  
+
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}
+
+
+
